@@ -1,6 +1,4 @@
-#map{
-    height: 35em;
-}
+
 
 .about-us-text{
     padding-top: 10px;
@@ -15,6 +13,30 @@
     height: auto;
     width: 100%;
 }
-body {
-    padding: 45px 0 0 0;
+
+#about-us-name{
+    color: red;
 }
+
+.pr-area{
+    margin-top: 30px;
+}
+
+.pr-area-pic{
+    height: auto;
+    width: 100%;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cont{
+    position: relative;
+    text-align: center;
+    color: white; }
