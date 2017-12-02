@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+
+/*shake phone*/
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.phoneShake{
+
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#gmap_canvas img{
+    max-width:none!important;
+    background:none!important
+}
+
+
+
+/*footer*/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    background-color:LightGray;
+}
+
+
+
+/*Line*/
+.title {
+    /* чтобы линии не выходили за ширину блока заголовка */
+    overflow: hidden;
+}
+.title:before,
+.title:after {
+    content: '';
+
+    /* делаем линию строчно-блочной */
+    display: inline-block;
+
+    /* выравниваем вертикально по середине */
+    vertical-align: middle;
+
+    /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+    box-sizing: border-box;
+
+    /* установка ширины в 100% делает линию равной ширине тега заголовка
+    ** благодаря этому линия заполнит все свободное пространство
+    ** слева и справа от текста
+    */
+    width: 100%;
+    height: 1px;
+    background: #474A51;
+
+    /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+    ** благодаря этому создается нужный отступ между линиями и текстом
+    */
+    border: solid #474A51;
+    border-width: 0 10px;
+}
+.title:before {
+    /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+    ** благодаря этому линия встает слева от текста
+    */
+    margin-left: -100%;
+}
+.title:after {
+    /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+    ** благодаря этому линия встает справа от текста
+    */
+    margin-right: -100%;
+}

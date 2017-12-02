@@ -1,21 +1,20 @@
-.row{
-    border: solid 1px black;
-    height: 30px;
+#map{
+    height: 35em;
 }
 
-.col-lg-1{
-    border: solid 1px red;
-}
-
-.col-md-3{
-    border: solid 1px blue;
-}
-
-.col-md-6{
+.about-us-text{
+    padding-top: 10px;
 
 }
 
-.col-md-4{
-    border: solid 1px green;
+.section-about-us{
+    padding-top: 20px;
+}
 
+.lawyer-pic{
+    height: auto;
+    width: 100%;
+}
+body {
+    padding: 45px 0 0 0;
 }
