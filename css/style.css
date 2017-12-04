@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
 
 .about-us-text{
     padding-top: 10px;
@@ -7,6 +7,7 @@
 
 .section-about-us{
     padding-top: 20px;
+
 }
 
 .lawyer-pic{
@@ -16,8 +17,22 @@
 
 #about-us-name{
     color: red;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
 }
 
+.about-us-pic{
+    margin-left: 70px;
+}
+
+.about-us-name{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.about-us-row{
+    background-color: #D6E6D7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .pr-area{
     margin-top: 30px;
 }
@@ -34,9 +49,48 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
 }
 
 .cont{
     position: relative;
     text-align: center;
     color: white; }
+
+
+.hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.fig{
+    overflow: hidden;
+}
+
+.choose-us-figure{
+    padding: 30% 30% 0% 30%;
+}
+
+.choose-us-col
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-bg{
+    background-color: #D6E6D7;
+
+
+}
+
+.header{
+    background-color: transparent;
+}
+
