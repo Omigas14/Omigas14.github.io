@@ -7,6 +7,7 @@
 
 .section-about-us{
     padding-top: 20px;
+    font-size: 0.8em;
 
 }
 
@@ -16,9 +17,15 @@
 }
 
 #about-us-name{
-    color: red;
+    color: #474a51;
+    background-color: #ddd;
     font-family: 'Alegreya Sans SC', sans-serif;
+    padding-left: 5%;
+    margin-bottom: 5%;
 
+}
+.TEXT-PIC{
+    font-size: 0.8em;
 }
 
 .about-us-pic{
@@ -82,6 +89,9 @@
 {
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 5%;
+    font-size: 0.8em;
+
 }
 
 .header-bg{

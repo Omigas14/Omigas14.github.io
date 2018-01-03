@@ -19,7 +19,15 @@
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
+<style>
 
+    @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+    body {
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #474a51; /* Цвет текста */
+    }
+    </style>
 
 <!-- paralax -->
 
@@ -29,16 +37,18 @@
 <div class="row header-bg">
 
     <div class="col-md-4 offset-md-4" >
-        <div class="header">
-            <h2>Адвокатский кабинет Дениса</h2>
-            <p>Юридические услуги</p>
+        <div class="header" style="padding: 6%">
+            <h2 style="color: #474a51;font-size: 1.1em; margin-bottom: 20%">АДВОКАТСКИЙ КАБИНЕТ</h2>
+            <H5 style="margin-bottom: 4%;color: #666970"> МАТВЕЕВА ДЕНИСА НИКОЛАЕВИЧА</H5>
+            <H5 style="color: #666970">ЮРИДИЧЕСКИЕ УСЛУГИ</H5>
 
         </div>
     </div>
-
-
 </div>
+
 <div id="navbar">
+
+
     <a  href="#">
         <span><img src="Pics/navbar/manager.png" alt="" style="height: 100%; width: auto;" class="nav-text"></span>
            О нас</a>
@@ -49,12 +59,18 @@
         <span><img src="Pics/navbar/like.png" alt="" style="height: 100%; width: auto;" class="nav-text"></span>
            Преимущества</a>
     <a  href="#">
+        <span><img src="Pics/navbar/notepad.png" alt="" style="height: 100%; width: auto;" class="nav-text"></span>
+        Статьи</a>
+
+    <a  href="#">
         <span><img src="Pics/navbar/question.png" alt="" style="height: 100%; width: auto;" class="nav-text"></span>
            Часто задаваемые вопросы</a>
     <a  href="#">
         <span><img src="Pics/navbar/phone-call.png" alt="" style="height: 100%; width: auto;"  ></span>
           Контакты</a>
 </div>
+
+
 <div class="parallax"></div>
     
 
@@ -78,24 +94,35 @@
 
     <!--About us -->
     <div class="about-us-row" style="width: 100%;">
-        <div class="text-center text-uppercase">О нас</div>
+        <div class="text-center text-uppercase" style="color: #474a51" >Обо мне</div>
     </div>
 
 
 <div class="container">
     <div class="row">
         <div class="col-md-2 offset-md-5 text-center about-us-text title">
-            <i class="fa  fa-institution fa-lg " style="margin-left: 5%;margin-right: 5%;"></i>
+            <i class="fa  fa-institution fa-lg " style="margin-left: 5%;margin-right: 5%; color: #474a51"></i>
         </div>
     </div>
 
     <div class="row section-about-us">
 
         <div class="col-md-6 col-xs-6 text-justify">
-            <SPAN id="about-us-name">Имя Фамилия Отчество</SPAN>
+            <div id="about-us-name">МАТВЕЕВ ДЕНИС НИКОЛАЕВИЧ</div>
 
-         <p class="about-us-name">  Повседневная практика показывает, что сложившаяся структура организации позволяет выполнять важные задания по разработке существенных финансовых и административных условий. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Не следует, однако забывать, что реализация намеченных плановых заданий позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач.         </p>
 
+              <p>  Более 18 лет опыт работы в крупных юридических фирмах Москвы.
+                  Осуществляю квалифицированную помощь гражданам по следующим вопросам : </p>
+            <ul>
+                <li>Составление исковых заявлений;</li>
+                <li>Работа с претензиями;</li>
+                <li>Представительство в судах;</li>
+                <li>Представительство в муниципальных и гос. учреждениях(налоговая, ФАС, БТИ, ФРС, кадастр);</li>
+                <li>Юридическая оценка правоустанавливающих документов;</li>
+                <li>Составление, юридическоая оценка договоров различных категорий (поставка, купля-продажи,
+                    уступки права, подряда и др.);</li>
+                <li>Консультирование по различным юридическим вопросам.</li>
+            </ul>
         </div>
 
         <div class="col-md-5 col-xs-6 about-us-pic" >
@@ -104,15 +131,17 @@
         </div>
     </div>
 
-
+</div>
 
 
     <!-- практикс ариас-->
 
-    <div class="row" style="margin-top:30px; ">
-        <div class="col-md-12 text-center text-uppercase">Чем мы занимаемся</div>
-    </div>
 
+
+    <div class="about-us-row" style="width: 100%; margin-top: 3%">
+        <div class="text-center text-uppercase" style="color: #474a51" >Уголовные специализации</div>
+    </div>
+<DIV class="container">
     <div class="row pr-area">
         <div class="col-md-2 offset-md-5 text-center title">
             <i class="fa fa-suitcase fa-lg" aria-hidden="true"></i>
@@ -122,81 +151,93 @@
     <div class="row" style="margin-top: 30px;">
         <div class="col-md-4 hover01">
             <div class="cont">
-            <a href="#">  <figure class="fig">
+            <a href="javascript: void(0);">  <figure class="fig">
                 <img src="http://mulliganbreit.com/wp-content/uploads/2016/08/mb-stock-sex-offense.jpg" alt="" class="pr-area-pic ">
-                <div class="centered">Centered</div>
+                <div class="centered TEXT-PIC" >ПРЕСТУПЛЕНИЯ ПРОТИВ ЖИЗНИ И ЗДОРОВЬЯ</div>
             </figure>
             </a>
         </div>
         </div>
         <div class="col-md-4 hover01">
             <div class="cont">
-                <a href="#">  <figure class="fig">
+                <a href="javascript: void(0);">  <figure class="fig">
                     <img src="http://mulliganbreit.com/wp-content/uploads/2016/10/mb-homicide-4.jpg" alt="Appeals" class="pr-area-pic" >
-                    <div class="centered">Centered</div>
+                    <div class="centered TEXT-PIC">АДВОКАТ В СУДЕ</div>
                 </figure>
                 </a>
             </div>
         </div>   <div class="col-md-4 hover01">
         <div class="cont">
-            <a href="#">  <figure class="fig">
+            <a href="javascript: void(0);">  <figure class="fig">
                 <img src="http://mulliganbreit.com/wp-content/uploads/2016/08/MB-stock-appeals.jpg" class="pr-area-pic ">
-                <div class="centered">Centered</div>
+                <div class="centered TEXT-PIC">АДВОКАТ В СИЗО</div>
             </figure>
             </a>
         </div>
     </div>
         <div class="col-md-4 hover01">
             <div class="cont">
-                <a href="#">  <figure class="fig">
+                <a href="javascript: void(0);">  <figure class="fig">
                     <img src="http://mulliganbreit.com/wp-content/uploads/2016/08/mb-stock-35c.jpg" alt="post-conviction litigation" class="pr-area-pic">
-                    <div class="centered">Centered</div>
+                    <div class="centered TEXT-PIC">АДВОКАТ ПРИ ЗАДЕРЖАНИИ</div>
                 </figure>
                 </a>
             </div>
         </div>   <div class="col-md-4 hover01">
         <div class="cont">
-            <a href="#">  <figure class="fig">
+            <a href="javascript: void(0);">  <figure class="fig">
                 <img src="http://mulliganbreit.com/wp-content/uploads/2016/08/mb-stock-homocide.jpg" alt="domestic violence" class="pr-area-pic ">
-                <div class="centered">Centered</div>
+                <div class="centered TEXT-PIC">ИЗНАСИЛОВАНИЯ</div>
             </figure>
             </a>
         </div>
     </div>   <div class="col-md-4 hover01">
         <div class="cont">
-            <a href="#">  <figure class="fig">
+            <a href="javascript: void(0);">  <figure class="fig">
                 <img src="http://mulliganbreit.com/wp-content/uploads/2016/08/mb-stock-dui.jpg" alt="DUI" class="pr-area-pic ">
-                <div class="centered">Centered</div>
+                <div class="centered TEXT-PIC">СНЯТИЕ СУДИМОСТИ</div>
             </figure>
             </a>
         </div>
     </div>
     </div>
 
+    </div>
 
 
 
 
+
+    <div class="about-us-row" style="width: 100%;margin-top: 3%;">
+        <div class="text-center text-uppercase" style="color: #474a51;" >почему выбрать нас</div>
+    </div>
+
+
+
+<div class="container">
     <!-- why choose us -->
     <div class="row">
-        <div class="col-md-12 text-center text-uppercase"> why choose us</div>
+
 
         <div class="col-md-4 choose-us-col">
             <figure class="choose-us-figure"><img src="Pics/WhyChooseUs/line-chart.png" alt="" style="height: auto;width: 100%;"></figure>
-            <div class="text-center">Качество услуг</div>
-            <div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet,  adipisicing elit.
+            <div class="text-center choose-us-col" style="background-color: #ddd; color:#474a51; ">КАЧЕСТВО УСЛУГ</div>
+            <div class="text-justify" style="font-size: 0.8em">Положительная практика ведения дел
+                из различных отраслей права
             </div>
         </div>
         <div class="col-md-4 choose-us-col">
             <figure class="choose-us-figure"><img src="Pics/WhyChooseUs/books-stack-of-three.png" alt="" style="height: auto;width: 100%;"></figure>
-            <div class="text-center">Квалификация</div>
-            <div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet,  adipisicing elit.
+            <div class="text-center choose-us-col" style="background-color:#ddd; color:#474a51;">КВАЛИФИКАЦИЯ</div>
+            <div class="text-justify" style="font-size: 0.8em">Широкий практический опыт,
+                включая длительный стаж работы в органах МВД
+
             </div>
         </div>
         <div class="col-md-4 choose-us-col">
             <figure class="choose-us-figure"><img src="Pics/WhyChooseUs/warranty.png" alt="" style="height: auto;width: 100%;"></figure>
-            <div class="text-center">Гарантия</div>
-            <div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,  adipisicing.
+            <div class="text-center choose-us-col"  style="background-color:#ddd; color:#474a51;">ИНДИВИДУАЛЬНЫЙ ПОДХОД</div>
+            <div class="text-justify" style="font-size: 0.8em">Мы готовы подстраиваться под индивидуальные нужды каждого человека
             </div>
         </div>
 
@@ -204,13 +245,19 @@
 
 
 
-
+</div>
 
     <!-- FAQ -->
+
+    <div class="about-us-row" style="width: 100%;margin-top: 3%;">
+        <div class="text-center text-uppercase" style="color: #474a51;" >Часто задаваемые вопросы</div>
+    </div>
+
+<div class="container">
     <div class="row" style="margin-top: 30px;">
         <div class="col-md-12 text-center">
 
-            <h2>Часто задаваемые вопросы</h2>
+
 
             <button class="accordion">Есть ли шанс на условный срок по ч. 3 ст. 159 УК РФ при обжаловании приговора?
                </button>
@@ -323,6 +370,26 @@ var sticky = navbar.offsetTop;
         }
     }
 </script>
+
+<!--navbar dropdown -->
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction1() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+        }
+    }
+</script>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>

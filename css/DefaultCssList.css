@@ -9,7 +9,7 @@ body {
     text-align: center;
 }
 
-#navbar {
+#navbar{
     z-index: 9;
     overflow: hidden;
     background-color: #98A599;
@@ -28,7 +28,7 @@ body {
 
 
 
-#navbar a:hover {
+#navbar a:hover{
     background-color: #ddd;
     color: black;
 }
@@ -52,6 +52,7 @@ body {
     padding-top: 60px;
 }
 
+/*navbar dropdown*/
 
 
 /*shake phone*/
@@ -190,3 +191,4 @@ textarea.form-control{
 body, html {
     height: 100%;
 }
+
