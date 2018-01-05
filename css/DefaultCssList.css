@@ -164,9 +164,9 @@ div.panel {
 /**/
 
 #contact{
-    background:#333333;
-    color:#f4f4f4;
-    padding-bottom:80px;
+    background:#ddd;
+    color:#474a51;
+    padding-bottom:30px;
 }
 
 textarea.form-control{
